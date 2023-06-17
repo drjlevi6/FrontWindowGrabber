@@ -13,7 +13,7 @@ FrontWindowGrabber is project containing a JavaScript for Automation (JXA) scrip
 
 - Create a folder $HOME/tmp.
 
-- Clone the GitHub repository FrontWindowGrabber ([https://github.com/drjlevi6/FrontWindowGrabber](https://github.com/drjlevi6/FrontWindowGrabber)) or download the file `cropScreenShotToFrontmostWindow.jxa.scpt` from the same repository.
+- Clone this repository or download its file `cropScreenShotToFrontmostWindow.jxa.scpt`.
 
 - Two possible next steps: Either
 

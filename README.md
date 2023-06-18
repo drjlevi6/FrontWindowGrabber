@@ -20,14 +20,14 @@ FrontWindowGrabber is project containing a JavaScript for Automation (JXA) scrip
 1. Using Apple's Shortcuts app: (a) Create a shortcut of category "Scripting", double-click sub-menu item "Run JavaScript for Mac Automation", and paste the contents of `cropScreenShotToFrontmostWindow.jxa.scpt`into it; in Shortcuts's "All Shortcuts" window, rename this shortcut to your liking; using System Settings > Keyboard > Keyboard Shortcuts > App Shortcuts, add a shortcut to All Applications, typing your shortcut's new name into the Menu Title field; assign a keyboard shortcut, or
 2. Using FastScripts: In the FastScripts settings, open or create a folder that FastScripts can see; drag `cropScreenShotToFrontmostWindow.jxa.scpt`into it; assign a keyboard shortcut.
 
-## Running the Shortcut
+## Running the Script
 
 When you type the keyboard shortcut you assigned, the script will
 
 1. Note which application is frontmost;
 2. Compute the size and position of this app's frontmost window;
-3. Create a screenshot of the computer's entire screen, storing it as a PNG file with a title derived from the day's date, in `$HOME/tmp`
-4. Using InageMagick's `convert`, crop the saved PNG file to a new file in $HOME/tmp. The new file's name will be derived from the original file's name, with the suffix `.png` changed to `-cropped.png`.
+3. Create a screenshot of the computer's entire screen, storing it as a PNG file with a title derived from the day's date, in `$HOME/tmp`;
+4. Using InageMagick's `convert`, crop the saved PNG file to a new file in $HOME/tmp. The new file's name will be derived from the original's name, with the suffix `.png` changed to `-cropped.png`.
 
 ## Notes
 
